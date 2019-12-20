@@ -6,21 +6,24 @@
   </Asset>
 
   <Files>
-    <File fileId="3" filename="$data/store/ui/textures/steelGlossy_diffuse.dds"/>
-    <File fileId="4" filename="$data/store/ui/textures/steelGlossy_normal.dds"/>
-    <File fileId="1" filename="textures/EDGE_Logo.dds"/>
-    <File fileId="2" filename="textures/EDGE_Logo_normal.dds"/>
+    <File fileId="4" filename="$data/store/ui/textures/steelGlossy_diffuse.dds"/>
+    <File fileId="5" filename="$data/store/ui/textures/steelGlossy_normal.dds"/>
+    <File fileId="1" filename="textures/Asphalt_diffuse.dds"/>
+    <File fileId="2" filename="textures/Asphalt_normal.dds"/>
+    <File fileId="3" filename="textures/Asphalt_specular.dds"/>
   </Files>
 
 
   <Materials>
-    <Material name="EDGE_Plate_mat" materialId="4">
+    <Material name="EDGE_Foundation_mat" materialId="4">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5" bumpDepth="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGE_Plate_mat" materialId="5">
       <Texture fileId="1"/>
       <Normalmap fileId="2" bumpDepth="2"/>
-    </Material>
-    <Material name="EDGE_Foundation_mat" materialId="5">
-      <Texture fileId="3"/>
-      <Normalmap fileId="4" bumpDepth="2"/>
+      <Glossmap fileId="3"/>
     </Material>
   </Materials>
 
@@ -33,9 +36,28 @@
   </Dynamics>
 
   <Scene>
-    <Light name="Worklight" translation="200 200 200" rotation="-65.7589 5.36715 -11.7352" nodeId="9" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" shadowMapSplitDistance2="80" shadowMapSplitDistance3="80" decayRate="4" range="500"/>
-    <Shape shapeId="1" name="Concrete_Plate" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="10" materialIds="4" castsShadows="true" receiveShadows="true">
-      <Shape shapeId="2" name="Concrete_Foundation" translation="0 -2.2 0" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="1" name="Asphalt_Plate" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="10" materialIds="5" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="Asphalt_Foundation" translation="0 -2.2 0" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="11" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="areaDefinitions" nodeId="12">
+        <TransformGroup name="snowAreas" nodeId="13">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="14">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="15"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="16"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" nodeId="17">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="18">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="19"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="20"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelingAreas" nodeId="21">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="22">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="23"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="24"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
     </Shape>
   </Scene>
 

@@ -4,8 +4,7 @@
     <translationsby>Castiga</translationsby>
     <version>0.5.0.0</version>
     <iconFilename>GroundPlates_Icon.png</iconFilename>
-    <title>
-        <!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
         <en>Ground Plates</en>
         <de>Multi Verkaufsstation</de>
         <fr>Poste De Vente Multiple</fr>
@@ -65,6 +64,13 @@ Rozmiar:    13 x 12.5 Metrów
     <storeItems>
         <storeItem rootNode="placeable" xmlFilename="data/PlateCheckers.xml"/>
         <storeItem rootNode="placeable" xmlFilename="data/PlateEDGE.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateAsphalt.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateConcrete.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateDefault.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateGlass.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateMetal.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateRubber.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/PlateWood.xml"/>
     </storeItems>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>

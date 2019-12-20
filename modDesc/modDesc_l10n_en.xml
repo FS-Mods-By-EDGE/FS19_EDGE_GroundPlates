@@ -4,8 +4,15 @@
 <translationby>Castiga</translationby>
 	<texts>
 		<text name="name_GroundPlates" text="EDGE Liquid Fertilizer"/>
+		<text name="name_PlateAsphalt" text="EDGE Decorative Tile"/>
 		<text name="name_PlateCheckers" text="Checkered Tiles"/>
+		<text name="name_PlateConcrete" text="EDGE Decorative Tile"/>
+		<text name="name_PlateDefault" text="EDGE Decorative Tile"/>
 		<text name="name_PlateEDGE" text="EDGE Decorative Tile"/>
+		<text name="name_PlateGlass" text="EDGE Decorative Tile"/>
+		<text name="name_PlateMetal" text="EDGE Decorative Tile"/>
+		<text name="name_PlateRubber" text="EDGE Decorative Tile"/>
+		<text name="name_PlateWood" text="EDGE Decorative Tile"/>
 		<text name="function_GroundPlates" text="These tiles can be placed on the Terrain to make your farm look Prestine!"/>
 		<text name="function_PlatesSnap" text="It's Highly advicable to use the to grid action for perfect placement."/>
 		<text name="shopItem_GroundPlates" text="Texture Tiles"/>

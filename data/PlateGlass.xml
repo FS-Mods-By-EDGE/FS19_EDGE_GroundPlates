@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name>$l10n_name_PlateCheckers</name>
+        <name>$l10n_name_PlateGlass</name>
         <functions>
             <function>$l10n_function_GroundPlates</function>
             <function>$l10n_function_PlatesSnap</function>
@@ -9,7 +9,7 @@
         <specs>
             <!--<capacity></capacity>-->
         </specs>
-        <image>store_PlateCheckers.dds</image>
+        <image>store_PlateGlass.dds</image>
         <price>60</price>
         <dailyUpkeep>0</dailyUpkeep>
         <lifetime>1000</lifetime>
@@ -20,7 +20,7 @@
     </storeData>
     <placeableType>placeable</placeableType>
     <!-- <typeDesc>$l10n_typeDesc_GroundPlates</typeDesc> -->
-    <filename>data/PlateCheckers.i3d</filename>
+    <filename>data/PlateGlass.i3d</filename>
     <placement testSizeX="3.6" testSizeZ="3.6" sizeX="3.6" sizeZ="3.6" useRandomYRotation="false" useManualYRotation="true"/>
     <dayNightObjects>
         <!-- <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/> -->
