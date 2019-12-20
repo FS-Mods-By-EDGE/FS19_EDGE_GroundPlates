@@ -6,6 +6,7 @@
 *.mayaSwatches
 
 # Object files
+*.xcf
 
 # Precompiled Headers
 
