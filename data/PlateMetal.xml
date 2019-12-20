@@ -21,7 +21,7 @@
     <placeableType>placeable</placeableType>
     <!-- <typeDesc>$l10n_typeDesc_GroundPlates</typeDesc> -->
     <filename>data/PlateMetal.i3d</filename>
-    <placement testSizeX="3.6" testSizeZ="3.6" sizeX="3.6" sizeZ="3.6" useRandomYRotation="false" useManualYRotation="true"/>
+    <placement testSizeX="5" testSizeZ="5" sizeX="5" sizeZ="5" useRandomYRotation="false" useManualYRotation="true"/>
     <dayNightObjects>
         <!-- <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/> -->
     </dayNightObjects>
@@ -38,5 +38,5 @@
             <!-- needs no mask -->
         </maskAreas>
     </seasons>
-    <tipOcclusionUpdateArea sizeX="3.6" sizeZ="3.6"/>
+    <!-- <tipOcclusionUpdateArea sizeX="5" sizeZ="5"/> -->
 </placeable>
