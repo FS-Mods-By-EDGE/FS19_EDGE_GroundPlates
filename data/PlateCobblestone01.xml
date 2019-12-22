@@ -6,9 +6,6 @@
             <function>$l10n_function_GroundPlates</function>
             <function>$l10n_function_PlatesSnap</function>
         </functions>
-        <specs>
-            <!--<capacity></capacity>-->
-        </specs>
         <image>store/store_PlateCobblestone01.dds</image>
         <price>60</price>
         <dailyUpkeep>0</dailyUpkeep>
@@ -19,12 +16,8 @@
         <category>decoration</category>
     </storeData>
     <placeableType>placeable</placeableType>
-    <!-- <typeDesc>$l10n_typeDesc_GroundPlates</typeDesc> -->
     <filename>data/PlateCobblestone01.i3d</filename>
     <placement testSizeX="5" testSizeZ="5" sizeX="5" sizeZ="5" useRandomYRotation="false" useManualYRotation="true"/>
-    <dayNightObjects>
-        <!-- <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/> -->
-    </dayNightObjects>
     <clearAreas>
         <!-- clearArea needs no mask -->
     </clearAreas>
@@ -38,5 +31,5 @@
             <!-- needs no mask -->
         </maskAreas>
     </seasons>
-    <!-- <tipOcclusionUpdateArea sizeX="5" sizeZ="5"/> -->
+    <tipOcclusionUpdateArea sizeX="0" sizeZ="0"/>
 </placeable>
