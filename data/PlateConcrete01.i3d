@@ -6,9 +6,6 @@
   </Asset>
 
   <Files>
-    <File fileId="4" filename="textures/BrickWall00_diffuse.dds"/>
-    <File fileId="5" filename="textures/BrickWall00_normal.dds"/>
-    <File fileId="6" filename="textures/BrickWall00_specular.dds"/>
     <File fileId="1" filename="textures/Concrete01_diffuse.dds"/>
     <File fileId="2" filename="textures/Concrete01_normal.dds"/>
     <File fileId="3" filename="textures/Concrete01_specular.dds"/>
@@ -22,9 +19,9 @@
       <Glossmap fileId="3"/>
     </Material>
     <Material name="EDGE_Foundation_mat" materialId="5">
-      <Texture fileId="4"/>
-      <Normalmap fileId="5"/>
-      <Glossmap fileId="6"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
     </Material>
   </Materials>
 
@@ -39,23 +36,23 @@
   <Scene>
     <Shape shapeId="1" name="Concrete_Plate" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="9" materialIds="4" castsShadows="true" receiveShadows="true">
       <Shape shapeId="2" name="Concrete_Foundation" translation="0 -2.2 0" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="10" materialIds="5" castsShadows="true" receiveShadows="true"/>
-      <TransformGroup name="areaDefinitions" nodeId="20">
-        <TransformGroup name="snowAreas" nodeId="21">
-          <TransformGroup name="start1" translation="5 0 -5" nodeId="22">
-            <TransformGroup name="width" translation="-10 0 0" nodeId="23"/>
-            <TransformGroup name="height" translation="0 0 10" nodeId="24"/>
+      <TransformGroup name="areaDefinitions" nodeId="11">
+        <TransformGroup name="snowAreas" nodeId="12">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="13">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="14"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="15"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="clearAreas" nodeId="25">
-          <TransformGroup name="start1" translation="5 0 -5" nodeId="26">
-            <TransformGroup name="width" translation="-10 0 0" nodeId="27"/>
-            <TransformGroup name="height" translation="0 0 10" nodeId="28"/>
+        <TransformGroup name="clearAreas" nodeId="16">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="17">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="18"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="19"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="levelingAreas" nodeId="29">
-          <TransformGroup name="start1" translation="5 0 -5" nodeId="30">
-            <TransformGroup name="width" translation="-10 0 0" nodeId="31"/>
-            <TransformGroup name="height" translation="0 0 10" nodeId="32"/>
+        <TransformGroup name="levelingAreas" nodeId="20">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="21">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="22"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="23"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
