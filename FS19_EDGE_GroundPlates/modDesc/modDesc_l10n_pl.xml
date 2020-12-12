@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
 		<text name="EDGE_BB" text="Cegiełki"/>
 		<text name="name_PlateEDGE" text="EDGE Płyty naziemne"/>
@@ -70,7 +69,5 @@
 		<text name="shopItem_GroundPlates" text="Płytki tekstur"/>
 		<text name="GroundPlates" text="Płytki"/>
 		<text name="typeDesc_GroundPlates" text="Płytki z fakturą"/>
-		<text name="action_SwitchColor_up" text="Zmień kolor ->"/>
-		<text name="action_SwitchColor_down" text="<- Zmień kolor"/>
 	</texts>
 </l10n>

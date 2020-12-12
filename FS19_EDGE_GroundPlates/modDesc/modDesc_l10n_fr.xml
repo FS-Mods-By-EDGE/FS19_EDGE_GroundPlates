@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
 		<text name="EDGE_BB" text="Blocs De Construction"/>
 		<text name="name_PlateEDGE" text="EDGE Plaques de masse"/>
@@ -70,7 +69,7 @@
 		<text name="shopItem_GroundPlates" text="Carreaux de texture"/>
 		<text name="GroundPlates" text="Carrelage"/>
 		<text name="typeDesc_GroundPlates" text="Tuiles avec texture"/>
-		<text name="action_SwitchColor_up" text="Changer de couleur ->"/>
-		<text name="action_SwitchColor_down" text="<- Changer de couleur"/>
+		<!-- 	<text name="action_SwitchColor_up" text="Changer de couleur"/>
+				<text name="action_SwitchColor_down" text="Changer de couleur"/> -->
 	</texts>
 </l10n>

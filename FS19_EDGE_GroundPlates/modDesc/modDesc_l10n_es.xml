@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
 		<text name="EDGE_BB" text="Bloques De Construcción"/>
 		<text name="name_PlateEDGE" text="EDGE Placas de tierra"/>
@@ -70,7 +69,5 @@
 		<text name="shopItem_GroundPlates" text="Azulejos de textura"/>
 		<text name="GroundPlates" text="Losas"/>
 		<text name="typeDesc_GroundPlates" text="Azulejos con textura"/>
-		<text name="action_SwitchColor_up" text="Cambiar color ->"/>
-		<text name="action_SwitchColor_down" text="<- Cambiar color"/>
 	</texts>
 </l10n>

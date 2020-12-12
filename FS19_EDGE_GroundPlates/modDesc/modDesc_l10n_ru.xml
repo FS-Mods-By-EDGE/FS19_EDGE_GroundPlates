@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
 		<text name="EDGE_BB" text="Строительные Блоки"/>
 		<text name="name_PlateEDGE" text="EDGE Наземные плиты"/>
@@ -70,7 +69,5 @@
 		<text name="shopItem_GroundPlates" text="Текстуры плитки"/>
 		<text name="GroundPlates" text="плитки"/>
 		<text name="typeDesc_GroundPlates" text="Плитка с текстурой"/>
-		<text name="action_SwitchColor_up" text="Переключить цвет ->"/>
-		<text name="action_SwitchColor_down" text="<- Переключить цвет"/>
 	</texts>
 </l10n>

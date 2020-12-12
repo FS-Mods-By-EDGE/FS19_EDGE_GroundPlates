@@ -1,4 +1,4 @@
--- Author Dajoor.
+-- Author EDGE Gaming
 -- 2018.11.23
 
 -- add to modfolder or  modfolder/scripts add <extraSourceFiles><sourceFile filename="categorizer.lua" /></extraSourceFiles>
@@ -19,37 +19,37 @@ if not fileExists(Categorizer.modDescFile) then
 	return false -- throw script in any case
 else
 
-	print("*** Categorizer loading cats!");
+	print("*** Categorizer loading categories!");
 	local modDescFile = loadXMLFile("modDesc", Categorizer.modDescFile);
-	
+
 	local i = 0
 	while i < 10 do
 		local orderId  = 0
 		local typeisvalid = false
-		
+
 		local ndx = string.format("modDesc.newcategory(%d)", i)
-		
+
 		if not hasXMLProperty(modDescFile, ndx) then
 			break
 		end;
-		
+
 		local name = getXMLString(modDescFile, ndx.. "#name")
 		if name == nil or name == "" then
 			break
 		end;
 		name = name:upper()
-		
+
 		if (g_storeManager:getCategoryByName(name) ~= nil) then
 			g_logManager:xmlWarning(modDescFile, "Invalid category: '%s' exists!", tostring(name))
 			break
 		end;
-		
+
 		local title = getXMLString(modDescFile, ndx.. "#title")
 		if title == nil or title == "" then
 			title = name
 		end;
 		title = g_i18n:hasText(title) and g_i18n:getText(title) or title:upper()
-		
+
 		local cattype = getXMLString(modDescFile, ndx.. "#type")
 		if cattype == nil or cattype == "" then
 			g_logManager:xmlWarning(modDescFile, "*** Categorizer Error : No Category Type Defined!")
@@ -61,16 +61,16 @@ else
 			if (cattype == "PLACEABLE") then typeisvalid = true end;
 			if (cattype == "OBJECT") then typeisvalid = true end;
 		end;
-		
+
 		local img = getXMLString(modDescFile, ndx.. "#img")
 		if img == nil or img == "" then
 			g_logManager:xmlWarning(modDescFile, "*** Categorizer Error : No Image Defined!")
 		end;
-		
+
 		if typeisvalid then
 			g_storeManager:addCategory(name, title, img, StoreManager.CATEGORY_TYPE[cattype], Categorizer.modFolder)
 		end;
-		
+
 		i = i + 1
 	end;
 	delete(modDescFile)

@@ -7,7 +7,7 @@
             <function>$l10n_function_PlatesSnap</function>
             <function>$l10n_function_EDGELights</function>
         </functions>
-        <image>store/store_PlateEmissive04.dds</image>
+        <image>store/store_PlateEDGE02.dds</image>
         <price>60</price>
         <dailyUpkeep>0</dailyUpkeep>
         <lifetime>1000</lifetime>

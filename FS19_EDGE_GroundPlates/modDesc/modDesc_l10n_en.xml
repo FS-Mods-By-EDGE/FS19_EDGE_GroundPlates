@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
 		<text name="EDGE_BB" text="Building Blocks"/>
 		<text name="name_PlateEDGE" text="EDGE Ground Plates"/>
@@ -70,7 +69,5 @@
 		<text name="shopItem_GroundPlates" text="Texture Tiles"/>
 		<text name="GroundPlates" text="Tiles"/>
 		<text name="typeDesc_GroundPlates" text="Tiles with texture"/>
-		<text name="action_SwitchColor_up" text="Switch Color ->"/>
-		<text name="action_SwitchColor_down" text="<- Switch Color"/>
 	</texts>
 </l10n>

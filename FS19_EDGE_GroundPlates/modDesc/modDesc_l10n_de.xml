@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
 		<text name="EDGE_BB" text="Bausteine"/>
 		<text name="name_PlateEDGE" text="EDGE Bodenplatten"/>
@@ -70,7 +69,5 @@
 		<text name="shopItem_GroundPlates" text="Textur-Fliesen"/>
 		<text name="GroundPlates" text="Fliesen"/>
 		<text name="typeDesc_GroundPlates" text="Fliesen mit Textur"/>
-		<text name="action_SwitchColor_up" text="Farbe wechseln ->"/>
-		<text name="action_SwitchColor_down" text="<- Farbe wechseln"/>
 	</texts>
 </l10n>
